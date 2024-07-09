@@ -14,8 +14,6 @@ public class MatchUtils {
     }
 
     public static int rollDice(){
-        int generated = generateRandom(1,6);
-        System.out.println(generated);
-        return generated;
+        return generateRandom(1,6);
     }
 }

@@ -80,6 +80,19 @@ public class Player {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Player player = (Player) o;
+        return health == player.health && strength == player.strength && attack == player.attack && Objects.equals(name, player.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(health, strength, attack, name);
+    }
+
     public boolean isNull() {
         return this.health == 0 && this.attack == 0 && this.strength == 0 && Objects.equals(this.name, "");
     }
