@@ -1,6 +1,11 @@
 # Arena 
 
 ---
+## Details
+Author: Surya Madhavan
+
+Contact: <a href="mailto:surya.madhaone@gmail.com">Email</a>
+
 ## Code Coverage: 
 - Method: 89%
 - Line: 89%
@@ -47,9 +52,3 @@ There are 3 modes in which one can play this game
 
 ### Exit the game
 - Enter <b>4</b> to exit the game.
-
----
-## Details
-Author: Surya Madhavan
-
-Contact: <a href="mailto:surya.madhaone@gmail.com">Email</a>
