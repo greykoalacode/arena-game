@@ -10,6 +10,7 @@ import org.msurya.entities.Match;
 import org.msurya.entities.Player;
 import org.msurya.exceptions.WrongInputException;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
@@ -142,6 +143,13 @@ public class GameTest {
         assertEquals(strength, newMatch.getPlayer2().getStrength());
         assertEquals(attack, newMatch.getPlayer2().getAttack());
         assertEquals(health, newMatch.getPlayer2().getHealth());
+    }
+
+    @Test
+    public void testMain(){
+        System.setIn(new ByteArrayInputStream("5\n".getBytes()));
+        String[] args = new String[]{};
+        Game.main(args);
     }
 
 }

@@ -1,6 +1,10 @@
 # Arena 
 
 ---
+## Code Coverage: 
+- Method: 89%
+- Line: 89%
+
 ## Setup
 - Build the project
     ```shell
@@ -10,7 +14,13 @@
     ```shell
     java -jar target\arena-1.0.jar
     ```
+
+- Run the unit tests
+    ```shell
+    mvn test
+    ```
 ---
+
 ## Instructions
 There are 3 modes in which one can play this game
 ### Play with computer
