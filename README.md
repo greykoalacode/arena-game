@@ -4,6 +4,8 @@
 ## Details
 Author: Surya Madhavan
 
+About me: <a href="https://msurya.in">Portfolio</a>
+
 Contact: <a href="mailto:surya.madhaone@gmail.com">Email</a>
 
 ## Code Coverage: 
