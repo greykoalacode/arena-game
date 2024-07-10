@@ -5,6 +5,12 @@
 - Method: 89%
 - Line: 89%
 
+## Prerequisites
+
+Make sure you have the following installed:
+- Java Development Kit (JDK)
+- Maven version 3.6 or higher
+
 ## Setup
 - Build the project
     ```shell
