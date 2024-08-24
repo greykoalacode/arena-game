@@ -1,6 +1,6 @@
 # Arena 
+Simple Multiplayer game built using core Java, as part of an assignment round of company.
 
----
 ## Details
 Author: Surya Madhavan
 
